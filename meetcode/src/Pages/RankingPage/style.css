@@ -1,0 +1,63 @@
+.rankingPage {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.rankingPageCont {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 10fr;
+    row-gap: 50px;
+    /* height: 90vh; */
+    width: 90vw;
+}
+
+.rankingTable {
+    max-height: 100%;
+    width: 90vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    overflow-y: scroll;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.title span {
+    background-color: var(--orange);
+    color: black;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+
+.rankBar {
+    font-size: 2rem;
+    padding-inline: 50px;
+    padding-block: 5px;
+    display: flex;
+    width: 70vw;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-inline: 50px; */
+    background-color: var(--dark);
+}
+
+.rankBar:nth-child(1) {
+    background-color: var(--orange);
+}
+
+.rankBar:nth-child(1) p {
+    color: black;
+}
+
+.rankBar:nth-child(even) {
+    background-color: var(--grey);
+}

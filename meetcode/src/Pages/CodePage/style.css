@@ -1,0 +1,109 @@
+.btnCont {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    align-self: center;
+}
+
+.btnCont button {
+    margin-inline: 5px;
+}
+
+.btnFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.timer {
+    font-size: 1.6rem;
+    background-color: var(--orange);
+    color: black;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.points {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.pntIcon {
+    color: black;
+}
+
+.runBtn {
+    background-color: var(--dark);
+    padding-block: 10px;
+    padding-inline: 10px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.runBtn:hover {
+    cursor: pointer;
+}
+
+.runIcon {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.problemItem {
+    padding-top: 10px;
+    word-wrap: normal;
+}
+
+.problemItem p {
+    margin-top: 20px;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.probEg {
+    /* word-wrap: normal !important; */
+    border-left: solid var(--grey);
+    padding-left: 20px;
+}
+
+.problemItem code {
+    background-color: black;
+    border: var(--grey) solid 2px;
+    border-radius: 7px;
+    padding-inline: 7px;
+    /* padding-block: 2px; */
+}
+
+.constraint {
+    margin-bottom: 20px;
+}
+
+.problemItem ul {
+    margin-left: 10px;
+}
+
+.problemItem ul li {
+    margin-top: 5px;
+}
+
+.solPanel {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.testPanel {
+    background-color: black;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.testPanel h1 {
+    margin-bottom: 20px;
+}

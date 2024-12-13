@@ -1,0 +1,99 @@
+.navbar {
+    background-color: var(--dark);
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+.icon {
+    font-size: 1.6rem;
+}
+
+.iconSpan {
+    background-color: #FF9900;
+    color: black;
+    margin-left: 5px;
+    padding-inline: 5px;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.searchCont {
+    background-color: var(--dark);
+    padding: 20px;
+    padding-inline: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+
+.searchCont input {
+    background-color: black;
+    border: none;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 10px;
+    font-size: 1rem;
+    flex: 2;
+    border: black solid;
+}
+
+.searchCont input:focus {
+    outline: none;
+}
+
+.searchCont button {
+    background-color: var(--grey);
+    border: none;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 10px;
+    font-size: 1rem;
+    flex: 1;
+    border: black solid;
+}
+
+.searchCont button:hover {
+    background-color: var(--dark);
+    cursor: pointer;
+}
+
+.problems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.problemCont {
+    background-color: var(--dark);
+    width: 70vw;
+}
+
+.problemBar {
+    background-color: var(--dark);
+    padding-inline: 50px;
+    padding-block: 20px;
+    border-bottom: black solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.problemBar:hover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
+
+.problemBarProb {
+    text-align: left;
+}
+
+.problemBarDiff {
+    text-align: center;
+}

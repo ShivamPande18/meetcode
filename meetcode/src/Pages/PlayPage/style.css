@@ -1,0 +1,118 @@
+.speedrunPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../Images/back9.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-clip: text;
+}
+
+.speedrunPageCont {
+    display: flex;
+    /* background-image: url(../../Images/back6.jpg); */
+    /*background-position: center; */
+    /* background-color: black; */
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* mix-blend-mode: multiply; */
+}
+
+.speedrunPageCont::before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(220, 235, 255, 0.8);
+    mix-blend-mode: multiply;
+}
+
+.speedTitle {
+    font-size: 20rem;
+    mix-blend-mode: multiply;
+    /* color: white; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+}
+
+.speedTitle span {
+    font-style: normal;
+    /* background-color: var(--orange); */
+    /* color: black; */
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+
+.playBtn {
+    font-size: 10rem;
+    margin-top: 100px;
+}
+
+.playBtn:hover {
+    cursor: pointer;
+}
+
+.countdown {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 13rem;
+    background-image: url("../../Images/back9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+}
+
+.countdown h1 {
+
+    mix-blend-mode: multiply;
+}
+
+.btns {
+    mix-blend-mode: normal;
+    /* background-color: black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 50px;
+}
+
+.btns button {
+    /* width: 50%; */
+    /* background-color: var(--easy); */
+    background-color: transparent;
+    font-size: 10rem;
+    border: none;
+    /* border: solid white; */
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    font-size: 2rem;
+}
+
+.btns button:hover {
+    cursor: pointer;
+    /* background-color: var(--grey); */
+    animation: mymove .5s forwards;
+}
+
+@keyframes mymove {
+    100% {
+        /* transform: rotate(180deg); */
+        transform: scale(1.2);
+    }
+}
